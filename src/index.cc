@@ -1,10 +1,4 @@
 #include <node.h>
-#include <iostream>
-#include <windows.h>
-#include <string.h>
-#include <string>
-#include <locale>
-#include <vector>
 #include "./alglib/ap.h"
 #include "./alglib/specialfunctions.h"
 
