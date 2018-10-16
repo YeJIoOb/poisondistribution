@@ -5,6 +5,7 @@
 			"src",
 			"<!(node -e \"require('nan')\")"
 		],
+    "cflags_cc!": ["-fexceptions"],
 		"sources": [
 			"src/alglib/ap.cpp",
       "src/alglib/integration.cpp",
