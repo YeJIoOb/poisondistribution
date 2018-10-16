@@ -1,0 +1,23 @@
+{
+  "name": "poisondistribution",
+  "version": "0.0.2",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "node-gyp build",
+    "install": "node-gyp rebuild",
+    "start": "node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "dependencies": {
+    "@types/node": "^10.5.2",
+    "nan": "^2.11.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YeJIoOb/poisondistribution.git"
+  }
+}
