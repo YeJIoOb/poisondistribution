@@ -1,11 +1,16 @@
 {
 	"targets": [{
+    "default_configuration": "Release",
 		"target_name": "myModule",
 		"include_dirs" : [
 			"src",
 			"<!(node -e \"require('nan')\")"
 		],
-    "cflags": ["-fexceptions"],
+    "configurations": {
+      "Release": {
+        "cflags": ["-fexceptions"]
+      }
+    },
 		"sources": [
 			"src/alglib/ap.cpp",
       "src/alglib/integration.cpp",
