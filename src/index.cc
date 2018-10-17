@@ -15,7 +15,7 @@ using v8::Value;
 void Method(const FunctionCallbackInfo<Value> &args)
 {
   Isolate *isolate = args.GetIsolate();
-  if (args.Length() < 2 || !args[0]->IsArray())
+  if (args.Length() < 2)
   {
     isolate->ThrowException(v8::Exception::TypeError(v8::String::NewFromUtf8(isolate, "Bad arguments")));
     return;
