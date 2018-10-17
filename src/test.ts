@@ -1,6 +1,6 @@
 import { invPoissonDistribution, poissonDistribution } from './index';
 
-console.log(1/poissonDistribution(0, 0.6018111));
+console.log(1/poissonDistribution(2, 0.5));
 
 // function voidO(a: number) { }
 
